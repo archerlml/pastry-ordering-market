@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GiveME5 pastry -- home</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<!--	<script src="https://code.jquery.com/ui/1.12.0-rc.2/themes/smoothness/jquery-ui.css"></script>-->
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link href="css/hover.css" rel="stylesheet" media="all">
+	
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+		
+		html {
+			overflow-y:scroll;
+		}
+		.form {
+/*			background: rgba(19, 35, 47, 0.9);*/
+			padding: 40px;
+			max-width: 600px;
+			margin: 40px auto;
+			border-radius: 4px;
+			box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+
+		}
+		
+		.sign {
+			margin-top: 10%;
+		}
+		
+		.tab-group{
+			list-style: none;
+/*			border-style:solid;*/
+			
+		}
+		.tab-group:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		.tab-group li a {
+			display: block;
+			padding: 15px;
+			background: rgba(160, 179, 176, 0.25);
+			color: #a0b3b0;
+			font-size: 20px;
+			float:left;
+			width: 50%;
+			text-align: center;
+			cursor: pointer;
+			-webkit-transition: .5s ease;
+		    transition: .5s ease;
+		}
+		
+		.tab-group li a:hover{
+			background: #179b77;
+			color: #ffffff;
+		}
+		
+		.tab-group .active a {
+			background: #1ab188;
+		  	color: #ffffff;
+		}
+		
+		.tab-content >div:last-child{
+			display:none;
+		}
+		
+		h1{
+			text-align: center;
+/*			color: #ffffff;*/
+			font-weight: 300;
+			margin: 0 0 40px;
+		}
+		
+		label{
+			position:absolute;
+			-webkit-transform: translateY(6px);
+				    transform: translateY(6px);
+			left: 13px;
+			color: rgba(105, 105, 105, 0.5);
+			-webkit-transition: all 0.25s ease;
+  			transition: all 0.25s ease;
+			 -webkit-backface-visibility: hidden;
+			pointer-events: none;
+			font-size: 22px;
+		}
+		
+		label>.req{
+			margin: 2px;
+			color: #1ab188;
+		}
+		label.active {
+		-webkit-transform: translateY(50px);
+          		transform: translateY(50px);
+		  left: 2px;
+		  font-size: 14px;
+		}
+		
+		label.active .req {
+		  opacity: 0;
+		}	
+		label.highlight {
+		  color: black;
+		}
+
+		input{
+			font-size: 22px;
+			display: block;
+			width: 100%;
+			padding: 5px 10px;
+			background: none;
+			border: 1px solid #a0b3b0;
+			border-radius: 0;
+			-webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  			transition: border-color .25s ease, box-shadow .25s ease;
+			
+		}
+		
+		input:focus{
+			outline: 0;
+			border-color:#1ab188;
+		}
+		
+		.field-wrap {
+  		position: relative;
+  		margin-bottom: 40px;
+		}
+
+		.button {
+			border: 0;
+			outline: none;
+			border-radius: 1;
+			padding: 15px 0;
+			font-size: 2rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: .1em;
+			background:#1ab188;
+			-webkit-transition: all 0.5s ease;
+  			transition: all 0.5s ease;
+			-webkit-appearance: none;	
+		}
+		.button:hover, .button:focus {
+		  background: #179b77;
+		}
+		.button-block {
+			display:block;
+			width: 100%;
+		}
+		
+		.forgot {
+			margin-top: -20px;
+			text-align: right;
+		}
+		
+		i{
+/*			display: inline-block;*/
+			position:absolute;
+			right: 5px;
+		}
+		
+		i>span {
+			right: 5px;
+		}
+		
+		i>span.hide{
+			display:none;
+		}
+
+		
+		.tooltip-inner {
+			max-width: 350px;
+			/* If max-width does not work, try using width instead */
+			width: 350px; 
+		}
+		
+	</style>
+
+</head>
+
+<body style="background-image:url('images/home/ship_nationwide.jpeg');">
+
+    <!-- Navigation -->
+	<div id="navbar"></div>
+
+	
+    <!-- Page Content -->
+    
+	<div class = "form sign" style="background-color: white" >
+		<ul class="tab-group">
+			<li class="tab active"><a href="#login">Login</a></li>
+			<li class="tab"><a href="#registration">Registration</a></li>
+			
+		</ul>
+		
+		<div class="tab-content">
+			<div id="login">
+				<h1>Welcome Back!</h1>
+				<form action="password.php" method="post">
+					<div class="field-wrap">
+						<label>Email Address<span class="req">*</span></label>
+						<input type="email" required autocomplete="false" name="email"/>
+					</div>
+					<div class="field-wrap">
+						<label>Password<span class="req">*</span></label>
+						<input type="password" required autocomplete="false" name="password"/>		
+					</div>
+
+<!--					<p class="forgot"><a href="#">Forget Password?</a></p>-->
+					<button class="button button-block hvr-sweep-to-right" type="submit">Login</button>
+					
+					
+					
+				</form>
+				
+			</div>
+			
+			<div id="registration"> 
+				<h1>Sign Up for Free</h1>
+				<form action="create.php" method="post">
+          
+					  <div class="top-row">
+						<div class="field-wrap">
+						  <label>
+							First Name<span class="req">*</span>
+						  </label>
+						  <input type="text" required autocomplete="off" name="firstName"/>
+						</div>
+
+						<div class="field-wrap">
+						  <label>
+							Last Name<span class="req">*</span>
+						  </label>
+						  <input type="text"required autocomplete="off" name="lastName"/>
+						</div>
+					  </div>
+
+					  <div class="field-wrap">
+						<label>
+						  Email Address<span class="req">*</span>
+						</label>
+						<input type="email"required autocomplete="off" name="email"/>
+					  </div>
+
+					  <div class="field-wrap">
+						<label>
+						  Set A Password<span class="req">*</span>
+<!--							<i class="fa fa-question-circle-o" aria-hidden="true" onclick="passwordTips()"></i>-->
+						</label>
+						<input type="password"required autocomplete="off" id="password" name="password" pattern="((?=.*\d)(?!.*\s)(?=.*[A-Z])(?=.*\w).{7,20})" />
+						<i class="fa fa-question-circle-o" aria-hidden="true" title="Password must contain 7~20 characters with one upeercase letter, one digit and no special character"><span class="hide">Tips</span></i>
+					  </div>
+					
+					  <div class="field-wrap">
+						<label>
+						  Confirm Password<span class="req">*</span>
+						</label>
+						<input type="password"required autocomplete="off" id="confirmpassword"/>
+					 </div>
+
+<!--
+					 <div id="dialog" title="basic dialog">
+						<p>Your passwords does not match. Please re-confirm the password.</p>
+					 </div>
+-->		
+					<div id="confirm-password-error">
+					</div>
+					
+					  <button type="submit" class="button button-block"/>Get Started</button>
+
+			   </form>
+			</div>			
+			
+		</div>
+	</div>
+		
+
+
+        <!-- <div class="row">
+            <div class="col-lg-12">
+                <h1>Full Slider by Start Bootstrap</h1>
+                <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>full-slider.css</code>file.</p>
+            </div>
+        </div> -->
+
+<!--	<hr>-->
+
+        <!-- Footer -->
+ <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="text-align:center;">Copyright &copy; GiveMe5</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+
+    
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+		
+	//	tooltip
+	$(function(){
+		$('.fa').tooltip();
+	});
+		
+	$(function(){
+		$('#navbar').load('navbar.html');
+	});
+	
+		
+//		confirm password
+	var pwd = document.getElementById('password');
+	var confirm_pwd = document.getElementById('confirmpassword');
+	confirm_pwd.onblur=function(){
+		if(pwd.value !== confirm_pwd.value)
+		{
+
+			//alert('Your passwords does not match. Please re-confirm the password.');
+			document.getElementById("confirm-password-error").innerHTML="<div class=\"alert alert-danger fade in\"><a class=\"close\" data-dismiss=\"alert\">&times;</a><strong>Error!</strong> Your passwords does not match. Please re-confirm the password.</div>";
+		}
+	}
+		
+	
+
+		
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+	
+	
+	$('.tab a').on('click',function(e){
+		event.preventDefault();
+		
+		$(this).parent().addClass('active');
+		$(this).parent().siblings().removeClass('active');
+		
+		target = $(this).attr('href');
+		$('.tab-content >div').not(target).hide();
+		$(target).fadeIn(600);
+	});
+		
+		
+	$('.form').find('input').on('keyup blur focus', function(e){
+		var $this = $(this);
+		var label = $this.prev('label');
+		
+		if(e.type ==='keyup')
+		{
+			if($this.val()===''){
+				label.removeClass('active highlight');
+			}
+			else{
+				label.addClass('active highlight');
+			}
+		}
+		else if (e.type ==='blur'){
+			if($this.val()===''){
+				label.removeClass('active highlight');
+			} else {
+				label.removeClass('highlight');
+			}
+		}
+		else if (e.type === 'focus'){
+			if( $this.val() === '' ) {
+    		label.removeClass('highlight'); 
+			label.addClass('active');
+			} 
+        else if( $this.val() !== '' ) {
+			}
+		}
+		
+	}
+	);
+	
+    </script>
+
+</body>
+
+</html>

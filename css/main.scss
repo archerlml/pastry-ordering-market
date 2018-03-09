@@ -1,0 +1,113 @@
+$cake-text: Lucida Sans Unicode;
+
+
+body {
+	background-image: url('../images/home/wall_paper.jpg');
+}
+
+#navigation {
+	ul li a {
+		font-size: 1.2em;
+	}
+}
+
+.carousel-caption {
+		width: 50%;
+		margin: 0 auto;
+		background: rgba(0,0,0,0.2);
+		border-radius: 50%;
+
+		a {
+			color: white;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+
+#content{
+		background: white;
+		width: 95%;
+		margin: 3% auto;
+		padding: 18px 10px;
+}
+
+.container {
+	h3 {
+			font: 2.2em $cake-text, sans-serif;
+			padding: 0 2.5%;
+		}
+
+	#signature_cakes,
+	#special_occasions,
+	#individuals {
+		ul {
+			padding: 0;
+			margin-bottom: 3%;
+		}
+		li {
+			display: inline-block;
+			list-style-type: none;
+			width: 30%;
+			margin: 2% 1.5%;
+			a {
+				&:hover {
+					text-decoration: none;
+				}
+
+				figure {
+					text-align: center;
+					position: relative;
+
+					figcaption {
+						font: 1.2em $cake-text, sans-serif;
+						color: black;
+						display: block;
+						margin: 10px 0;	
+					}
+
+					p {
+						color: grey;
+						font: 1.2em $cake-text, sans-serif;
+						background-color: rgba(255, 255, 255, 0.7);
+						width: 45px;
+						height: 25px;
+						position: absolute;
+						bottom: 10%;
+						right: 3%;
+
+					}
+				}
+			}
+			
+		}
+	}
+	
+	#overlay {
+		background: rgba(255, 255, 255, 0.85);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: none;
+		text-align: center;
+
+		img {
+			margin-top: 15%;
+			
+		}
+
+		p {
+			font: 1.2em $cake-text, sans-serif;
+			margin: 10px;
+		}
+	}
+}
+
+footer {
+	p {
+		font: 1em $cake-text, sans-serif;
+	}
+}

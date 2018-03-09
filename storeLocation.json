@@ -1,0 +1,100 @@
+{
+	"name": "GiveMeFivePastry",
+	"children": [{
+		"name": "US",
+		"children": [{
+			"name": "CA",
+			"children": [{
+				"name": "San Jose",
+				"children": [{
+						"name": "Mission Road Store"
+					}, {
+						"name": "First Street Store"
+					}, {
+						"name": "SJSU Store"
+					}
+							]}, {
+				"name": "San Francisco",
+				"children": [{
+					"name": "Twin Peaks Store"
+				}, {
+					"name": "Mission St Store"
+				}]
+			}, {
+				"name": "Los Angeles",
+				"children": [{
+					"name": "Koreatown Store"
+				}, {
+					"name": "Hollywood Store"
+				}]
+			}, {
+				"name": "Santa Clara",
+				"children": [{
+					"name": "El Camino Real Store"
+				}, {
+					"name": "Space Park Dr Store"
+				}]
+			}]
+		}, {
+			"name": "NY",
+			"children": [{
+				"name": "New York",
+				"children": [{
+					"name": "Brooklyn Store"
+				}, {
+					"name": "Central Park Store"
+				}]
+			}, {
+				"name": "Kingston",
+				"children": [{
+					"name": "Broadway Store"
+				}, {
+					"name": "John St Store"
+				}]
+			}, {
+				"name": "Middletown",
+				"children": [{
+					"name": "Main St Store"
+				}]
+			}]
+		}, {
+			"name": "WA",
+			"children": [{
+				"name": "Seattle",
+				"children": [{
+					"name": "Downtown Store"
+				}, {
+					"name": "Queen Anne Store"
+				}]
+			}, {
+				"name": "Arlington",
+				"children": [{
+					"name": "Olympic Ave Store"
+				}]
+			}]
+		}]
+	}, {
+		"name": "China",
+		"children": [{
+			"name": "Peking",
+			"children": [{
+					"name": "Great Wall Store"
+				}]
+		}, {
+			"name": "Shanghai",
+			"children": [{
+					"name": "Centry Park Store"
+				}]
+		}, {
+			"name": "Hongkong",
+			"children": [{
+					"name": "Kowloon Store"
+				}]
+		}, {
+			"name": "Hangzhou",
+			"children": [{
+					"name": "West Lake Store"
+				}]
+		}]
+	}]
+}

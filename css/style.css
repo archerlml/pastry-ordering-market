@@ -1,0 +1,96 @@
+
+/** images ***
+
+*************/
+.img-margin{
+
+	margin-right:30px;
+
+}
+
+
+/** Body background *******/
+
+body  {
+   background: url('4.pic.jpg') repeat;
+}
+
+/**************************/
+
+
+/***** contact me form *****/
+
+.contact-me {
+	background:  #FCFCFC;
+	border-radius: 5px;
+}
+
+/*************************/
+
+/***** image icon for meet the chef label ***/
+.draw {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+/*************************/
+
+/******* circle images for contact us ***********/
+
+.circle-draw {
+  background-color: #e60000;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+
+/***********************************************/
+
+.container#picture ul {
+  padding: 0;
+  margin-bottom: 3%;
+}
+
+.containers#picture li{
+  display: inline-block;
+  list-style-type: none;
+  width: 30%;
+  margin: 2% 1.5%;
+}
+
+#picture li{
+	display:inline-block;
+	list-style-type: none;
+}
+#picture ul li figcaption {
+	  font: 1.2em Lucida Sans Unicode, sans-serif;
+      color: black;
+      display: block;
+      margin: 10px 0;
+      text-align: center;
+}
+
+figure{
+	margin:40px !important;
+}
+
+
+
+/**********************************************/

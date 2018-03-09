@@ -1,0 +1,83 @@
+body {
+  background-image: url("../images/home/wall_paper.jpg"); }
+
+#navigation ul li a {
+  font-size: 1.2em; }
+
+.carousel-caption {
+  width: 50%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%; }
+  .carousel-caption a {
+    color: white; }
+    .carousel-caption a:hover {
+      text-decoration: none; }
+
+#content {
+  background: white;
+  width: 95%;
+  margin: 3% auto;
+  padding: 18px 10px; }
+
+.container h3 {
+  font: 2.2em Lucida Sans Unicode, sans-serif;
+  padding: 0 2.5%; }
+.container #signature_cakes ul,
+.container #special_occasions ul,
+.container #individuals ul {
+  padding: 0;
+  margin-bottom: 3%; }
+.container #signature_cakes li,
+.container #special_occasions li,
+.container #individuals li {
+  display: inline-block;
+  list-style-type: none;
+  width: 30%;
+  margin: 2% 1.5%; }
+  .container #signature_cakes li a:hover,
+  .container #special_occasions li a:hover,
+  .container #individuals li a:hover {
+    text-decoration: none; }
+  .container #signature_cakes li a figure,
+  .container #special_occasions li a figure,
+  .container #individuals li a figure {
+    text-align: center;
+    position: relative; }
+    .container #signature_cakes li a figure figcaption,
+    .container #special_occasions li a figure figcaption,
+    .container #individuals li a figure figcaption {
+      font: 1.2em Lucida Sans Unicode, sans-serif;
+      color: black;
+      display: block;
+      margin: 10px 0; }
+    .container #signature_cakes li a figure p,
+    .container #special_occasions li a figure p,
+    .container #individuals li a figure p {
+      color: grey;
+      font: 1.2em Lucida Sans Unicode, sans-serif;
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 45px;
+      height: 25px;
+      position: absolute;
+      bottom: 10%;
+      right: 3%; }
+.container #overlay {
+  background: rgba(255, 255, 255, 0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center; }
+  .container #overlay img {
+    margin-top: 15%; }
+  .container #overlay p {
+    font: 1.2em Lucida Sans Unicode, sans-serif;
+    margin: 10px; }
+
+footer p {
+  font: 1em Lucida Sans Unicode, sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

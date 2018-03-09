@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>GiveME5 pastry -- home</title>
+
+    <!-- Reset user agent -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id='navigation'>
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="home.html" style="font-family:Chalkduster; font-size: 1.6em;">GiveME5 Confections</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#signature_cakes">Signature Cakes</a>
+                        </li>
+                        <li>
+                            <a href="#special_occasions">Special Occasions</a>
+                        </li>
+                        <li>
+                            <a href="#individuals">Individuals</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Order<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a id="click_pick" href="#pick-up">Pick-Up</a>
+                        </li>
+                        <li>
+                            <a id="click_shipping" href="#shipping">Shipping</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Vitual Tour</a>
+                        </li>
+                        <li>
+                            <a href="#">Chef & Staff</a>
+                        </li>
+                        <li>
+                            <a href="locations.html">Locations</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Login / Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page content -->
+    <div class="container" style="margin-top:60px;background-color:white;">
+        <div class="row" style="margin-top:15px;margin-bottom:10px;">
+            <div class="col-lg-12" style="background-image:url('images/background1.jpg');height:150px;">
+                <h2 style="color:white;font-family:Constantia;font-size:100px;">Ordering</h2>
+            </div>
+        </div>
+        <!-- pick-up -->
+        <div id="pick-up" class="row" style="margin-top:10px;margin-bottom:10px;">
+            <div class="col-lg-12" style="height:100%;margin-bottom:30px;">
+                <br>
+                <p style="font-size:25px;margin-bottom:3px;text-align:center;font-family:Calibri Light;">Pick up in store</p>
+                <hr style="margin-top:0px;">   
+                <div class="col-lg-5" style="margin-left:150px;">
+                <img src='images/pick-up2.jpg' alt='pick-up in store' style="width:100%;height:500px;margin-bottom:20px;">               
+                </div>
+                <div class="col-lg-5" style="margin-left:20px;">
+                    <h4 style="margin-top:50px;">San Jose Boutique</h4> <br>  
+                    <p style="font-size:15px;"><i class="fa fa-map-marker fa-fw" aria-hidden="true" style="margin-left:5px;"></i>1 Washington Sq</p>     
+                    <p style="margin-left:25px;font-size:15px;">San Jose, CA 95192</p><br>
+                    <p style="font-size:15px;"><i class="fa fa-phone fa-fw" aria-hidden="true" style="margin-left:5px;"></i>(408)244-3021</p> <br>
+                    <p style="font-size:15px;"><i class="fa fa-clock-o fa-fw" aria-hidden="true" style="margin-left:5px;"></i>Monday<span style="margin-left:43px;">9:00AM ~ 9:00PM</span></p>
+                    <p style="margin-left:25px;font-size:15px;">Tuesday<span style="margin-left:41px;">9:00AM ~ 9:00PM</span></p>
+                    <p style="margin-left:25px;font-size:15px;">Wednesday<span style="margin-left:18px;">9:00AM ~ 9:00PM</span></p>
+                    <p style="margin-left:25px;font-size:15px;">Thursday<span style="margin-left:34px;">9:00AM ~ 9:00PM</span></p>
+                    <p style="margin-left:25px;font-size:15px;">Friday<span style="margin-left:55px;">9:00AM ~ 6:00PM</span></p>
+                    <p style="margin-left:25px;font-size:15px;">Saturday<span style="margin-left:35px;">11:00AM ~ 6:00PM</span></p>
+                    <p style="margin-left:25px;font-size:15px;">Sunday<span style="margin-left:44px;">11:00AM ~ 5:00PM</span></p> 
+                </div>
+                
+            </div>
+            <p style="text-align: center;"><strong style="color: #F00;">IMPORTANT NOTE</strong><br>
+                &nbsp;<br>
+                All orders are non-refundable. Pick-up orders must be picked up on the agreed date.<br>
+                We will not be responsible for cakes left in store beyond the agreed date.<br>
+                Next-day orders must be placed by 3:00 PM. Please note that 2-day cakes are not<br>
+                available for next-day pick-up or delivery. Refer to our <strong><a href="home.html" target="_blank">online cake menu</a></strong> for more information.</p><br>
+        </div>
+        <!-- shipping -->
+        <div id="shipping" class="row" style="margin-top:30px;margin-bottom:10px;display:none;">
+            <div class="col-lg-12" style="height:100%;">
+                <p style="font-size:25px;margin-bottom:3px;text-align:center;font-family:Calibri Light;">Shipping National Wide</p>
+                <hr style="margin-top:0px;"> 
+            </div>
+    <div class="container" id='content'>
+        <div id='signature_cakes'>
+            <ul>
+                <li>
+                    <a href='images/home/citron_mille_crepe.jpg'>
+                        <figure>
+                            <img src='images/home/citron_mille_crepe.jpg' alt='Citron Mille Crepe' data-price='75'>
+                            <figcaption>Citron Mille Crepe</figcaption>
+                        </figure>
+                    </a>   
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item1)"/></div>
+                </li>
+                <li>
+                    <a href='images/home/rainbow_cake.jpg'>
+                        <figure>
+                            <img src='images/home/rainbow_cake.jpg' alt='Rainbow Cake' data-price='50'>
+                            <figcaption>Rainbow Cake</figcaption>
+                        </figure>
+                        </a>   
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item2)"/></div>
+                </li>
+                <li >
+                    <a href='images/home/rainbow_heart_mille_crepe_cake.jpg'>
+                        <figure>
+                            <img src='images/home/rainbow_heart_mille_crepe_cake.jpg' alt='Rainbow Heart Mille Crepe' data-price='80'>
+                            <figcaption>Rainbow Heart Mille Crepe</figcaption>
+                        </figure>
+                    </a>
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item3)"/></div>
+                </li>
+                <li>
+                    <a href='images/home/ginger_cookie_cake.jpg'>
+                        <figure>
+                            <img src='images/home/ginger_cookie_cake.jpg' alt='Ginger Cookie Cake' data-price='45'>
+                            <figcaption>Ginger Cookie Cake</figcaption>
+                        </figure>
+                    </a>
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item4)"/></div>
+                </li>
+                <li>
+                    <a href='images/home/chocolate_cake.jpg'>
+                        <figure>
+                            <img src='images/home/chocolate_cake.jpg' alt='Chocolate Cake' data-price='50'>
+                            <figcaption>Chocolate Cake</figcaption>
+                        </figure>
+                    </a>
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item5)"/></div>
+                </li>
+                <li>
+                    <a href='images/home/flag_cake.jpg'>
+                        <figure>
+                            <img src='images/home/flag_cake.jpg' alt='Flag Cake' data-price='50'>
+                            <figcaption>Flag Cake</figcaption>
+                        </figure>
+                    </a>
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item6)"/></div>
+                </li>
+                <li>
+                    <a href='images/home/raspberry_cheesecake.jpg'>
+                        <figure>
+                            <img src='images/home/raspberry_cheesecake.jpg' alt='Raspberry Cheesecake' data-price='70'>
+                            <figcaption>Raspberry Cheesecake</figcaption>
+                        </figure>
+                    </a>
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item7)"/></div>
+                </li>
+                <!-- <li>
+                    <a href='images/home/raspberry_cheesecake_2.jpg'>
+                        <figure>
+                            <img src='images/home/raspberry_cheesecake_2.jpg' alt='Raspberry Cheesecake' data-price='80'>
+                            <figcaption>Raspberry Cheesecake</figcaption>
+                        </figure>
+                    </a>
+                </li> -->
+                <li>
+                    <a href='images/home/gateau_aux_marron.jpg'>
+                        <figure>
+                            <img src='images/home/gateau_aux_marron.jpg' alt='Gateau Aux Marron' data-price='80'>
+                            <figcaption>Gateau Aux Marron</figcaption>
+                        </figure>
+                    </a>
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item8)"/></div>
+                </li>
+                <li>
+                    <a href='images/home/mango_mousse_cake.jpg'>
+                        <figure>
+                            <img src='images/home/mango_mousse_cake.jpg' alt='Mango Mousse Cake' data-price='60'>
+                            <figcaption>Mango Mousse Cake</figcaption>
+                        </figure>
+                    </a>
+                    <div align="center"><input type="button" value="Add to cart" onclick="AddtoCart(item9)"/></div>
+                </li>
+            </ul>
+        </div>
+        </div>  
+
+<div align="center"><table padding="10" cellpadding="4" cellspacing="4" border="4" id="orderedProductsTbl">
+    <thead>
+        <tr>
+            <td>Cake Name</td>
+            <td>Unit Price</td>
+            <td>Count</td>
+        </tr>
+    </thead>
+    <tbody id="orderedProductsTblBody"></tbody>
+    <tfoot>
+        <tr> <td></td><td align="right">Total</td><td align="right" id="cart_total"> </td></tr>
+    </tfoot>
+</table>
+</div> 
+
+<div class = "form sign" style="background-color: white" >
+
+        <div class="tab-content">
+            <div id="ship">
+                <h1>Please input your address</h1>
+                <form action="test.php" method="post">
+                    <div class="field-wrap">
+                        <label>First Name<span class="req">*</span></label>
+                        <input required autocomplete="false" type ="text" name="firstName"/>
+                    </div>
+                    <div class="field-wrap">
+                        <label>Last Name<span class="req">*</span></label>
+                        <input required autocomplete="false" type ="text" name="lastName"/>
+                    </div>
+                    <div class="field-wrap">
+                        <label>Address<span class="req">*</span></label>
+                        <input required autocomplete="false" type ="text" name="address"/>       
+                    </div>
+                    <div class="field-wrap">
+                        <label>City<span class="req">*</span></label>
+                        <input required autocomplete="false" type ="text" name="city"/>      
+                    </div>
+                    <div class="field-wrap">
+                        <label>State<span class="req">*</span></label>
+                        <input required autocomplete="false" type ="text" name="state"/>      
+                    </div>
+                    <div class="field-wrap">
+                        <label>Zipcode<span class="req">*</span></label>
+                        <input required autocomplete="false" type ="text" name="zipcode"/>       
+                    </div>              
+                        <input type="hidden" name="total" id="order_total" />
+                        <input type="hidden" name="detail" id="order_detail" />
+                    <button class="button button-block hvr-sweep-to-right" type="submit">Order</button>
+
+                </form>         
+            </div>
+        </div>
+</div>
+<button class="button button-block hvr-sweep-to-right" onclick="drawChart()">Draw Pie Chart</button>
+<div id="piechart" style="width: 900px; height: 500px;"></div>
+<button class="button button-block hvr-sweep-to-right" onclick="ordershow()">show order</button>
+<button class="button button-block hvr-sweep-to-right" onclick="GetCellValues()">get cell values</button>
+
+    </div>
+</div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p style="text-align:center;">Copyright &copy; GiveMe5</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </footer>
+    <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
+<script type="text/javascript" src="pie_chart.js"></script>
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Or -->
+    <!--script src="js/jquery.js"></script-->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 3000 //changes the speed
+    })
+    </script>
+
+    <script>
+    /* Define the picture size in the cake gallery */
+    $('#content img').attr('width', 330);
+
+    /* Display light-box when click a cake picture */
+    var $overlay = $("<div id='overlay'></div>");
+    var $image = $("<img>");
+    var $caption = $("<p></p>");
+
+    $overlay.append($image);
+    $overlay.append($caption);
+    $('#content').append($overlay);
+
+    $('#content a').click(function(event){
+        event.preventDefault();
+        var href = $(this).attr('href');
+        console.log(href);
+
+        $image.attr('src', href);
+
+        //var captionText = $(this).children('figure').children('img').attr('alt');
+        var captionText = $(this).children('figure').children('figcaption').text();
+        $caption.text(captionText);
+        $(overlay).append("<button type='button'>Add to cart</button>");
+        $overlay.fadeIn(250);
+    });
+
+    $overlay.click(function(){
+        
+        $(this).fadeOut('slow');
+        $(overlay).children('button').remove();
+    });
+
+    /* Display the price when hover on a signature cake picture */
+    var $price = $("<p></p>");
+    
+    $('#signature_cakes figure').hover(function(){
+        var priceText = $(this).children('img').attr('data-price');
+        $price.text('$' + priceText);
+        $(this).append($price);
+    });
+
+    // change shipping and pickup
+    $("#click_shipping").click(function(){
+        $("#pick-up").hide()
+        $("#shipping").show()
+    });
+    $("#click_pick").click(function(){
+        $("#shipping").hide()
+        $("#pick-up").show()
+    });
+
+    </script>
+    <style>
+        .form {
+/*          background: rgba(19, 35, 47, 0.9);*/
+            padding: 40px;
+            max-width: 600px;
+            margin: 40px auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+
+        }
+        
+        .sign {
+            margin-top: 5%;
+        }
+        
+        label {
+            position:absolute;
+            -webkit-transform: translateY(6px);
+                    transform: translateY(6px);
+            left: 13px;
+            color: rgba(105, 105, 105, 0.5);
+            -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+             -webkit-backface-visibility: hidden;
+            pointer-events: none;
+            font-size: 22px;
+        }
+        
+        label>.req{
+            margin: 2px;
+            color: gray;
+        }
+        label.active {
+        -webkit-transform: translateY(50px);
+                transform: translateY(50px);
+          left: 2px;
+          font-size: 14px;
+        }
+        
+        label.active .req {
+          opacity: 0;
+        }   
+        label.highlight {
+          color: black;
+        }
+
+        input{
+            font-size: 22px;
+            display: block;
+            width: 100%;
+            padding: 5px 10px;
+            background: none;
+            border: 1px solid #a0b3b0;
+            border-radius: 0;
+            -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+            transition: border-color .25s ease, box-shadow .25s ease;
+            
+        }
+        
+        input:focus{
+            outline: 0;
+            border-color:#666699;
+        }
+        
+        .field-wrap {
+        position: relative;
+        margin-bottom: 40px;
+        }
+
+        .button {
+            border: 0;
+            outline: none;
+            border-radius: 1;
+            padding: 15px 0;
+            font-size: 2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            background:white;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            -webkit-appearance: none;   
+        }
+        .button:hover, .button:focus {
+          background: #666699;
+            color:white;
+        }
+        .button-block {
+            display:block;
+            width: 100%;
+        }
+    </style>
+    <style>
+    #orderedProductsTbl {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #orderedProductsTbl td, #orderedProductsTbl th {
+        border: 1px solid #ddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    #orderedProductsTbl tr:nth-child(even){background-color: #f2f2f2}
+
+    #orderedProductsTbl tr:hover {background-color: #ddd;}
+
+    #orderedProductsTbl th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #4CAF50;
+        color: white;
+    }
+    </style>
+
+<?php
+extract($_POST);
+
+$servername="mysql";
+$username="archerlml";
+$password="081152016";
+$database="givemefive";
+
+$con = new mysqli($servername, $username, $password, $database);
+
+if($con->connect_error){
+  die("unable to connect to database");
+}
+
+$sql_c1 = "SELECT count FROM cake WHERE name='Citron Mille Crepe'"; 
+$sql_c2 = "SELECT count FROM cake WHERE name='Rainbow Cake'"; 
+$sql_c3 = "SELECT count FROM cake WHERE name='Rainbow Heart Mille Crepe'"; 
+$sql_c4 = "SELECT count FROM cake WHERE name='Ginger Cookie Cake'"; 
+$sql_c5 = "SELECT count FROM cake WHERE name='Chocolate Cake'"; 
+$sql_c6 = "SELECT count FROM cake WHERE name='Flag Cake'"; 
+$sql_c7 = "SELECT count FROM cake WHERE name='Raspberry Cheesecake'"; 
+$sql_c8 = "SELECT count FROM cake WHERE name='Gateau Aux Marron'"; 
+$sql_c9 = "SELECT count FROM cake WHERE name='Mango Mousse Cake'"; 
+
+$result_c1 = $con->query($sql_c1);
+$result_c2 = $con->query($sql_c2);
+$result_c3 = $con->query($sql_c3);
+$result_c4 = $con->query($sql_c4);
+$result_c5 = $con->query($sql_c5);
+$result_c6 = $con->query($sql_c6);
+$result_c7 = $con->query($sql_c7);
+$result_c8 = $con->query($sql_c8);
+$result_c9 = $con->query($sql_c9);
+
+
+$con->close();
+
+?>
+
+
+    <script>
+    function drawChart() {
+
+    var cake1="Citron Mille Crepe";
+    var cake2="Rainbow Cake";
+    var cake3="Rainbow Heart Mille Crepe";
+    var cake4="Ginger Cookie Cake";
+    var cake5="Chocolate Cake";
+    var cake6="Flag Cake";
+    var cake7="Raspberry Cheesecake";
+    var cake8="Gateau Aux Marron";
+    var cake9="Mango Mousse Cake";
+
+
+    var cakes = [
+        ['Cakes', 'Orders'],
+        ['Citron Mille Crepe',  2],
+        ['Rainbow Cake',      3],
+        ['Rainbow Heart Mille Crepe',  4],
+        ['Ginger Cookie Cake', 0],
+        ['Chocolate Cake',    0],
+        ['Flag Cake',  0],
+        ['Raspberry Cheesecake', 0],
+        ['Gateau Aux Marron',    0],
+        ['Mango Mousse Cake',    0]
+        ]
+
+    
+    cakes[1][1]=4;
+    cakes[2][1]=2;
+    cakes[3][1]=4;
+    cakes[4][1]=1;
+    cakes[5][1]=5;
+    cakes[6][1]=6;
+    cakes[7][1]=7;
+    cakes[8][1]=8;
+    cakes[9][1]=9;
+
+      var data = google.visualization.arrayToDataTable(cakes);
+
+      var options = {
+            title: 'Cake Sales',
+            pieSliceText: 'percentage',
+            slices: { }
+      };
+
+        var chart = new   google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+        google.visualization.events.addListener(chart, 'onmouseout', function(e) {
+            var slices = options.slices ;
+            slices[e.row] = {};
+            options['slices'] = slices;            
+            chart.draw(data, options);
+          } 
+        );  // mouse out end
+
+       google.visualization.events.addListener(chart, 'onmouseover', function(e) {
+               var sliceid= e.row;
+               var slices = options.slices ;
+               if(slices.hasOwnProperty(e.row)){
+                   if(slices[e.row].hasOwnProperty('offset')) return false
+               }
+           slices[e.row] = {offset:0.2};
+           options['slices'] = slices;
+           chart.draw(data, options);
+               }
+        );   // mouse over end
+     }
+    </script>
+
+    <script>
+    function ordershow(){
+        var table = document.getElementById('orderedProductsTblBody');
+        var n = table.rows.length;
+        var total = table.rows[n].cells[2].innerHTML;
+        //document.getElementById("order_total").innerHTML=total;
+
+        var  detail= "";
+            for (var r = 0; r < n; r++) {
+                    detail += (table.rows[r].cells[0].innerHTML);
+                    detail += (table.rows[r].cells[2].innerHTML);
+            }
+        //document.getElementById("order_detail").innerHTML=detail;  
+        alert(total);
+        alert(detail); 
+        console.log(total);
+        console.log(detail);  
+    }
+</script>
+    <script type="text/javascript">
+        //create array that will hold all ordered products
+        var shoppingCart = [];
+        var item1 = new Array("Citron Mille Crepe",75);
+        var item2 = new Array("Rainbow Cake",50);
+        var item3 = new Array("Rainbow Heart Mille Crepe",80);
+        var item4 = new Array("Ginger Cookie Cake",45);
+        var item5 = new Array("Chocolate Cake",50);
+        var item6 = new Array("Flag Cake",50);
+        var item7 = new Array("Raspberry Cheesecake",70);
+        var item8 = new Array("Gateau Aux Marron",80);
+        var item9 = new Array("Mango Mousse Cake",60);
+        
+        //this function displays content of shopping cart
+        function displayShoppingCart(){
+            var orderedProductsTblBody=document.getElementById("orderedProductsTblBody");
+            //ensure we delete all previously added rows from ordered products table
+            while(orderedProductsTblBody.rows.length>0) {
+                orderedProductsTblBody.deleteRow(0);
+            }
+                   
+            //variable to hold total price of shopping cart
+            var cart_total_price=0;
+            var detail ="";
+            //iterate over array of objects
+            for(var product in shoppingCart){
+                //add new row
+                
+                var row=orderedProductsTblBody.insertRow();
+                //create three cells for product properties 
+                var cellName = row.insertCell(0);
+                var cellPrice = row.insertCell(1);
+                var cellCount = row.insertCell(2);
+                cellPrice.align="right";
+                //fill cells with values from current product object of our array
+                cellName.innerHTML = shoppingCart[product].Name;
+                cellPrice.innerHTML = shoppingCart[product].Price;
+                cellCount.innerHTML = shoppingCart[product].Count;
+                cart_total_price+=shoppingCart[product].Price * shoppingCart[product].Count;
+                console.log(shoppingCart[0]);
+                
+                detail += shoppingCart[product].Name + shoppingCart[product].Count;
+            }
+            //fill total cost of our shopping cart 
+            document.getElementById("cart_total").innerHTML=cart_total_price;
+            document.getElementById("order_total").value=cart_total_price;
+            document.getElementById("order_detail").value=detail;
+        }
+
+        function AddtoCart(item){
+           //Below we create JavaScript Object that will hold three properties you have mentioned:    Name,Description and Price
+           var singleProduct = {};
+           singleProduct.Name=item[0];
+           singleProduct.Price=item[1];
+           singleProduct.Count=0;
+           //Fill the product object with data
+            //check duplicates
+            
+            if(shoppingCart.length == 0){
+                singleProduct.Count++;
+                shoppingCart.push(singleProduct);
+            }else
+
+            if(shoppingCart.length >= 1){
+                for(i = 0; i < shoppingCart.length; i++){
+                    if (shoppingCart[i].Name == item[0]){
+                        shoppingCart[i].Count++;
+                    }else
+                    if (!contains(shoppingCart,item[0]))
+                    {
+                        shoppingCart.push(singleProduct);
+                    }
+                }
+            }
+           //call display function to show on screen
+           displayShoppingCart();
+        }
+
+        
+    
+
+        function deleterow(tableID) {
+            var table = document.getElementById(tableID);
+            var rowCount = table.rows.length;
+            //var row = table.rows[rowCount - 1 ];
+                    table.deleteRow(row);
+        }
+
+        function contains(a,s){
+            var found = false;
+            for (j = 0; j < a.length && !found; j++) {
+              if (a[j].Name === s) {
+                found = true;
+              }
+            }
+            return found;
+        }
+
+        function GetCellValues(){
+            var table = document.getElementById('orderedProductsTblBody');
+            for (var r = 0, n = table.rows.length; r < n; r++) {
+                for (var c = 0, m = table.rows[r].cells.length; c < m; c++) {
+                    alert(table.rows[r].cells[c].innerHTML);
+                }
+            }
+        }
+  
+    </script>
+</body>
+
+</html>

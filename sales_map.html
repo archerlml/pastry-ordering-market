@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+<body>
+  
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<div id="navbar"></div>
+<div id="container" style="height: 500px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
+<script>
+	
+
+  $(function () {
+	  $('#navbar').load('navbar.html');
+
+    $.getJSON('Sales_Map.json', function (data) {
+
+        // Make codes uppercase to match the map data
+        $.each(data, function () {
+            this.code = this.code.toUpperCase();
+        });
+
+        // Instanciate the map
+        $('#container').highcharts('Map', {
+
+            chart : {
+                borderWidth : 0
+            },
+
+            title : {
+                text : 'GiveMe5 Confections Sales in US ($1k)'
+            },
+
+            legend: {
+                layout: 'horizontal',
+                borderWidth: 0,
+                backgroundColor: 'rgba(255,255,255,0.5)',
+                floating: true,
+                verticalAlign: 'bottom',
+                y: 20
+            },
+
+            mapNavigation: {
+                enabled: true
+            },
+
+            colorAxis: {
+                min: 1,
+                //type: 'logarithmic',
+                minColor: '#ecf9f2',
+                maxColor: '#133926',
+                stops: [
+                    [0, '#ecf9f2'],
+                    [0.6, '#26734d'],
+                    [1, '#133926']
+                ]
+            },
+
+            series : [{
+                animation: {
+                    duration: 1000
+                },
+                data : data,
+                mapData: Highcharts.maps['countries/us/us-all'],
+                joinBy: ['postal-code', 'code'],
+                dataLabels: {
+                    enabled: true,
+                    color: '#FFFFFF',
+                    format: '{point.code}'
+                },
+                name: '2015 Sales',
+                tooltip: {
+                    pointFormat: '{point.code}: {point.value}k'
+                }
+            }]
+        });
+    });
+});
+  </script>
+</body>
+</html>
